@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A1A6AA;
+  font-family: Raanana, Arial, Helvetica, cursive, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #A1A6AA;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  /*-webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; */
+  padding: 40px;
+  height: 30vw;
+  width: 30vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#pic1 {
+  background-image: url(../assets/sequential.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+}
+#pic2 {
+  background-image: url("../assets/smoothiepic.jpg");
+  background-size: contain;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pic3 {
+  background-image: url(../assets/Render_1.jpg);
+  background-size: contain;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pic4 {
+  background-image: url(../assets/LS_menstshirt.jpg);
+  background-size: contain;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pic5 {
+  background-image: url(../assets/LS_productad.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+}
+#pic6 {
+  background-image: url(../assets/LS_bathandbodywebad.jpg);
+  background-size: contain;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pic7 {
+  background-image: url(../assets/tinyredflower.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+}
+#pic8 {
+  background-image: url(../assets/Goat_after_LS.jpg);
+  background-size: contain;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pic9 {
+  background-image: url(../assets/coachb&w.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  border: 3px solid #DE0044;
+}
+/* Style the footer */
+.footer {
+  background-color: #A1A6AA;
+  padding: 10px;
+  text-align: center;
+}
+.gallery {
+  margin: auto;
+  width: 95%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .column {
+    width: 95vw;
+    height: 95vw;
+    margin-bottom: 10px;
+  }
+  .gallery {
+    width: 100%;
+  }
+}

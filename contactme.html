@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./CSS/contactme.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+  <div class="sidenav">
+   <img src="./assets/morning_glory.png" alt="" width="90%">
+  </div>
+
+<div class="content">
+  <img src="./assets/contactmetext.png" alt="Displays_Contact_Me" width="110%">
+</br>
+</br>
+</br>
+  <form action="./form_hanler.php" method="post" target="_blank">
+    <fieldset>
+    <legend id="personalinfo">Personal Information</legend>
+    <input type="text" name="firstname"/>
+    <label for="firstname">First name:</label>
+    <br/>
+    <input type="text" name="lastname"/>
+    <label for="lastname">Last name:</label>
+    <br/>
+  </fieldset><br/>
+
+    <br/><br/>
+    <label for="services">What services are you interested in?</label> <br/>
+    <input type="checkbox" name="services" value="Design">Designs (Logos,etc.)<br/>
+    <input type="checkbox" name="services" value="Illustration">Illustrations<br/>
+    <input type="checkbox" name="services" value="Photography">Photography<br/>
+    <input type="checkbox" name="services" value="Product">Advertising/Product Photography<br/>
+    <input type="checkbox" name="services" value="Webpage">Webpage/Website Design<br/>
+    <br/><br/>
+    <br/>
+    <br/>
+    <label for="comments">Questions/Comments?:</label><br/>
+    <textarea name="comments" rows="5" cols="50">Include a message for me here...</textarea><br/>
+    <input type="submit" name="submit">
+    <input type="reset" name="reset">
+    <br/>
+    <br/>
+
+  </form>
+
+  <div class="footer">
+  <a href="./index.html"> <span style="color:red;text-align:center">Go back to my Homepage</span></a>
+  </div>
+</div>
+
+
+  </body>
+</html>

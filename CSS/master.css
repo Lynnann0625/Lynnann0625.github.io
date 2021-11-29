@@ -19,17 +19,14 @@ header {
   width: 35%;
   border: 4px solid #DE0044;
 }
-.header_center {
-  padding: 10px;
-  font-size: 45px;
-}
+
 .header_right {
   width: 50%;
   padding: 30px;
   font-size: 35px;
 }
 .header_right img{
-  width: 150%;
+  width: 100%;
 }
 .briefinfo {
   padding: 30px;
@@ -99,5 +96,11 @@ header {
   .row {
     -webkit-flex-direction: column;
     flex-direction: column;
+    align-items: center;
+  }
+  .column {
+    width: 60vw;
+    height: 60vw;
+    margin-bottom: 20px;
   }
 }
