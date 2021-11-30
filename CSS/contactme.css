@@ -20,6 +20,7 @@ body {
   padding-left: 20px;
   padding-top: 20px;
   background-color: #707070;
+  border-right: 4px solid #DE0044;
   overflow-x: hidden;
 }
 
@@ -45,5 +46,5 @@ body {
   background-color: #A1A6AA;
 }
 .footer {
-  background-color: #A1A6AA;
+
 }
